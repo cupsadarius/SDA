@@ -1,3 +1,22 @@
+/*
+    3.4.Colorarea grafurilor. Fiind dat un graf neorientat G =(X, Γ) 
+    unde X este mulţimea formată din n noduri, iar Γ este mulţimea muchiilor 
+    şi un număr de m culori, se cere să se determine toate colorările posibile 
+    ale nodurilor grafului folosind cele m culori, astfel încât oricare două noduri 
+    adiacente să fie colorate în mod diferit.
+
+    Citim din fisier de pe prima linie 
+    m - numarul de culori disponibile
+    n - numarul de noduri in graf
+    si apoi matricea de adiacenta a grafului
+
+    Apoi folosind backtracking recursiv coloram graful
+    verificand la fiecare pas culorile nodurilor adiacente
+
+    Daca o colorare intruneste toate criteriile este apoi scrisa in fisierul
+    color_sol.txt
+*/
+
 #include <stdio.h>
 #include <stdlib.h>
 int a[100][100], x[100];

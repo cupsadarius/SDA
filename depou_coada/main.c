@@ -1,4 +1,20 @@
+/* 
 
+Se consideră un depou de locomotive cu o singură intrare şi cu o singură linie de cale ferată, 
+care poate cuprinde oricâte locomotive. Să se scrie programul care realizează dispecerizarea locomotivelor din depou.
+Programul prelucrează comenzi de intrare în depou a unei locomotive, de ieşire 
+din depou a unei locomotive şi de afişare a locomotivelor din depou.
+
+3.5. Depoul are intrarea la un capăt şi ieşirea la capătul opus.
+
+la initializarea depoului se citeste fisierul depou.txt care introduce in acesta
+cateva locomotive pentru a popula programul, locomotive care pot mai apoi fi sterse
+adaugate locomotive noi.
+scoaterea locomotivei se face la un capat scotand prima locomotiva.
+pentru scoaterea unei locomotive din interiorul depoului se muta toate locomotivele
+care sunt in fata acesteia la coada iar apoi se scoate locomotiva.
+
+*/
 #include <stdio.h>
 #include <stdlib.h>
 

@@ -1,3 +1,26 @@
+/*
+    3.9	Să se scrie un program care să interschimbe subarborele drept cu cel stâng pentru un nod dat.
+
+    Facem citirea arborelui din fisier
+    Se alege un nod
+    se verifica daca acesta este frunza,
+    daca nu se interschimba subarborele drept cu cel stang.
+
+Afisarea se face in ordine.
+
+
+ARBORELE FOLOSIT:
+
+                  5
+            /          \
+           3             4
+         /   \         /   \
+       13    10       21    23
+       /    /  \     /  \    \
+      20   8   14   24  30   25
+
+*/
+
 #include<stdio.h>
 #include<stdlib.h>
 #include<conio.h>
